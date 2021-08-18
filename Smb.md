@@ -13,5 +13,12 @@ smbclient -L <target IP>
 smbclient \\\\<target IP>\\$share
 ```
 
+- **enum4linux**
+
+```bash
+enum4linux -a <target IP>
+```
+
+
 - [**impacket**](https://github.com/SecureAuthCorp/impacket)
 
