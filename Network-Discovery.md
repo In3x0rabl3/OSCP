@@ -1,12 +1,9 @@
-# OSCP Cheatsheet
-
-
 ## Network Discovery
 
 - [**nmap**](https://nmap.org/book/)
 
 ```bash
-nmap -sC -sV -p- -v 192.168.1.1
+nmap -sC -sV -p- -v <target IP>
 ```
 
 - [**responder**](https://github.com/SpiderLabs/Responder)
@@ -22,5 +19,8 @@ responder.py -I eth0 -wrf
 bettercap -X --proxy --proxy-https -T <target IP>
 ```
 
+- [**Netdiscover**](https://github.com/alexxy/netdiscover)
 
-
+```bash
+netdiscover -i eth0 -r <target IP>
+```
