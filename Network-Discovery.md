@@ -3,7 +3,7 @@
 
 ## Network Discovery
 
-- **nmap**
+- [**nmap**](https://nmap.org/book/)
 
 ```bash
 nmap -sC -sV -p- -v 192.168.1.1
@@ -15,6 +15,8 @@ nmap -sC -sV -p- -v 192.168.1.1
 responder -I eth0 -A
 responder.py -I eth0 -wrf
 ```
+
+- **Bettercap**
 
 
 
