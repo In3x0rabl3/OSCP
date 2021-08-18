@@ -30,3 +30,11 @@ netdiscover -i eth0 -r <target IP>
 
 ```bash
 ./reconnoitre.py -t <target IP> -o ./results/ --pingsweep --hostnames --services --quick
+```
+
+- [**Autorecon**](https://github.com/Tib3rius/AutoRecon)
+
+```bash
+./autorecon.py <target IP>
+```
+
