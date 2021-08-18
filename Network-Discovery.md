@@ -26,4 +26,7 @@ netdiscover -i eth0 -r <target IP>
 ```
 
 
-- [Reconnoitre](https://github.com/codingo/Reconnoitre)
+- [**Reconnoitre**](https://github.com/codingo/Reconnoitre)
+
+```bash
+./reconnoitre.py -t <target IP> -o ./results/ --pingsweep --hostnames --services --quick
