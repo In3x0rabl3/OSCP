@@ -3,7 +3,7 @@
 
 ## Network Discovery
 
--**nmap**
+- **nmap**
 
 
 
