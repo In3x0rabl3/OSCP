@@ -4,7 +4,12 @@
 ## Network Discovery
 
 - **nmap**
-    - f
+
+```bash
+nmap -sC -sV -p- -v 192.168.1.1
+```
+
+
 
 
 
